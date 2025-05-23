@@ -1958,6 +1958,11 @@ html .bar_c38106 {
 	}
 }
 
+/* fix search bar when 3rd icon appears */
+.base_c48ade:has(.trailing_c38106 > :nth-child(3)) .search__49676 .searchBar__97492 {
+	margin-right: 120px !important;
+}
+
 .spriteContainer__04eed {
 	--custom-emoji-sprite-size: 24px !important;
 }
