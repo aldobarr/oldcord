@@ -114,7 +114,7 @@ html.platform-win .trailing_c38106 :is(.recentsIcon_c99c29, .anchor_edefb8) {
 	transform: translateY(3px);
 }
 html.platform-win .trailing_c38106 .button__85643.iconWrapper__9293f[aria-label="Update Ready!"] {
-  transform: translateY(3px);
+	transform: translateY(3px);
 }
 html.platform-osx .title_c38106 {
 	display: none !important;
@@ -1966,10 +1966,14 @@ html .bar_c38106 {
 	margin-right: 120px !important;
 }
 
+.trailing_c38106:has(.button__85643.iconWrapper__9293f[aria-label="Update Ready!"]) .winButtons_c38106 {
+	left: 25px !important;
+}
+
 .trailing_c38106 .iconWrapper__9293f {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .base_c48ade:has(.trailing_c38106 > :nth-child(4):not(.winButtons_c38106)) .winButtons_c38106 {
