@@ -1977,7 +1977,7 @@ html .bar_c38106 {
 }
 
 .base_c48ade:has(.trailing_c38106 > :nth-child(4):not(.winButtons_c38106)) .winButtons_c38106 {
-  right: 0;
+	right: 0;
 }
 
 .spriteContainer__04eed {
