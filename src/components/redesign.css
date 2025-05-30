@@ -1968,16 +1968,13 @@ html .bar_c38106 {
 
 .trailing_c38106:has(.button__85643.iconWrapper__9293f[aria-label="Update Ready!"]) .winButtons_c38106 {
 	left: 25px !important;
+	right: -12px !important;
 }
 
 .trailing_c38106 .iconWrapper__9293f {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.base_c48ade:has(.trailing_c38106 > :nth-child(4):not(.winButtons_c38106)) .winButtons_c38106 {
-	right: 0;
 }
 
 .spriteContainer__04eed {
